@@ -39,19 +39,19 @@ O **Sistema de Cálculo de Rescisão Trabalhista** é uma aplicação web desenv
 
 ### Como Usar
 
-#### 1. Instale as Dependências
+### 1. Instale as Dependências
 Execute o comando abaixo para instalar as dependências do projeto:
 
 ```bash
 go mod tidy
 
-#### 2. Execute o Servidor
+### 2. Execute o Servidor
 Execute o comando abaixo para iniciar o servidor:
 
 ```bash
 go run main.go
 
-####3. Envie uma Requisição POST para / com os dados do contrato de trabalho no corpo da requisição
+### 3. Envie uma Requisição POST para / com os dados do contrato de trabalho no corpo da requisição
 
-Endpoints da API
+4. **Endpoints API:**
 POST /: Cria um novo cálculo de rescisão trabalhista, retornando os valores das verbas rescisórias calculadas.
