@@ -52,3 +52,6 @@ Execute o comando abaixo para iniciar o servidor:
 go run main.go
 
 ####3. Envie uma Requisição POST para / com os dados do contrato de trabalho no corpo da requisição
+
+Endpoints da API
+POST /: Cria um novo cálculo de rescisão trabalhista, retornando os valores das verbas rescisórias calculadas.
